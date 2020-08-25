@@ -1,0 +1,25 @@
+
+public class While {
+
+	public static void main(String[] args) {
+		int x = 0;
+		
+		while(x<10) {
+			System.out.println(x+ " ");
+			x++;
+		}
+		
+		//Usando break para sair quando o contador for 5
+		System.out.println(" ");
+		int y = 0;
+		while(y<10) {
+			System.out.println(y+" ");
+			if (y==5) {
+				break;
+			}
+			y++;
+		}
+
+	}
+
+}

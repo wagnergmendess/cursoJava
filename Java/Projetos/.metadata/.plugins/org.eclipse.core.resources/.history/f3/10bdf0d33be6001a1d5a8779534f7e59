@@ -1,0 +1,19 @@
+
+public class PrimeiroExemplo {
+	
+	/**
+	 * @param args
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x = 10;
+		int y = x + 5;
+		
+		System.out.println("valor de x = " + x);
+		System.out.println("valor de y = " + y);
+
+	}
+
+}

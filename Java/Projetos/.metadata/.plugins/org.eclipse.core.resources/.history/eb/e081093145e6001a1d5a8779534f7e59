@@ -1,0 +1,24 @@
+
+public class While {
+
+	public static void main(String[] args) {
+		int x = 0;
+		
+		while(x<10) {
+			System.out.println(x+ " ");
+			x++;
+		}
+		
+		//Usando break para sair no 5
+		System.out.println(" ");
+		while(x<10) {
+			System.out.println(x+" ");
+			if (x==5) {
+				break;
+			}
+			x++;
+		}
+
+	}
+
+}
